@@ -22,8 +22,8 @@ int main(){
         }
 
         printf("Enter the elements of matrix B :\n");
-        for(int i=0;i<m;i++){
-            for(int j=0;j<n;j++){
+        for(int i=0;i<p;i++){
+            for(int j=0;j<q;j++){
                 scanf("%d",&B[i][j]);
             }
         }
@@ -32,7 +32,7 @@ int main(){
     // Matrix mutiplication process
     for(int i=0;i<m;i++){
         for(int j=0;j<q;j++){            
-            for(int k=0;k<p;k++){         // we can exchange p with n(n==p)!!
+            for(int k=0;k<n;k++){         // we can exchange p with n(n==p)!!
                 AB[i][j]+=A[i][k]*B[k][j];
             }
         }
