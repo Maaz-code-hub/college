@@ -37,7 +37,7 @@ int main(){
             }
         }
     }
-
+    printf("The resultant matrix is :\n");
     // printing mutilied matrix
     for(int i=0;i<m;i++){
             for(int j=0;j<q;j++){
