@@ -7,8 +7,10 @@ int main(){
     int n,choice,x;
     char Str1[20],Str2[20];
     first:
-    printf("Please select the operation :\n ");
+    printf("\n===================================\n");
+    printf("Please select the operation :\n");
     printf("1.Strlen\n2.StrCmp\n3.StrCat\n");
+    printf("===================================\n");
     scanf("%d",&choice);
     printf("Enter the first string\n");
     scanf("%s",Str1);
@@ -22,6 +24,9 @@ int main(){
            break;
     case 3:StrCat(Str1,Str2);
            break;
+    default : printf("Not a vilid input!!!");
+              printf("Plese select again:");
+              goto first;
     }
     second:
     printf("\nPress 0 to quit and 1 to repeat : ");
