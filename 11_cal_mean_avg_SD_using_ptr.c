@@ -34,9 +34,9 @@ int main()
     }
     printf("\n");
 
-    printf("\n**\n");
+    printf("\n*************************************************\n");
     printf("\tSum\t = \t%g\n\tMean\t = \t%g\n\tVariance = \t%g\nStandard Deviation = \t%g",Sum,Mean,Variance,Sd);
-    printf("\n**\n");
+    printf("\n*************************************************\n");
     return 0;
 }
 
