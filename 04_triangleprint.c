@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main(){
-    int n,x;
+    int rows,x;
     x=1;
-    printf("Enter the number of lines : ");
-    scanf("%d",&n);
-    for(int i = 1;i<=n;i++){
+    printf("Enter the number of rows : ");
+    scanf("%d",&rows);
+    for(int i = 1;i<=rows;i++){
         for(int j=0;j<i;j++){
             printf("%d\t",x++);
         }
